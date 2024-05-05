@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chamber {
+    margin-bottom: 20px;
+}
+
+.chamber span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.dealer-container,.player-container {
+    margin-bottom: 20px;
+}
+
+.dealer-container h2,.player-container h2 {
+    margin-top: 0;
+}
+
+.result-container {
+    margin-top: 40px;
+}
+
+.result-container h2 {
+    margin-top: 0;
+}
+
+.result-container span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+}
